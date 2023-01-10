@@ -5,9 +5,9 @@ public class MainProgramRunnable {
 	
 	public static void main(String[] args) {
 		
-		/*Implementing Runnable interface for printing Strings 10 times */
+		/*Implementing Runnable interface for printing Strings 5 times */
 		
-		doSeveralTimes( () -> System.out.print("Hello World "), 10 );
+		doSeveralTimes( () -> System.out.print("Hello World "), 5 );
 		System.out.println();
 		
 		
