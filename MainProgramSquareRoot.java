@@ -4,8 +4,8 @@ public class MainProgramSquareRoot {
 	
 	public static void main(String[] args) {
 		
-		System.out.print("The sum of a number squared for that number from 1 to 100 in lambda expression: ");
-		System.out.println( sum( x -> x*x, 1, 100 ) );
+		System.out.print("The sum of a number squared for that number from 1 to 50 in lambda expression: ");
+		System.out.println( sum( x -> x*x, 1, 50 ) );
 		
 		System.out.print("The sum of a number squared for that number from 1 to 100 in method reference which is"
 				+ "a shorhand expression for any lambda expression that has the same variable as in the interface: ");
